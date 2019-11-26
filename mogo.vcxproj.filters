@@ -1,0 +1,2298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="base\baseapp.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\entity_base.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\lua_base.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\world_base.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\aoi.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\cellapp.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\entity_cell.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\lua_cell.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\space.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\world_cell.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="common\balance.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\base64.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bitcryto.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cfg_reader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cjson.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\debug.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\defparser.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\entity.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\entity_mgr.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\epoll_server.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\exception.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\json_helper.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\logger.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\lua_bitset.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\lua_mogo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\mailbox.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\md5.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\memory_pool.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\mutex.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\net_util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\path_founder.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\pluto.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\rpc_mogo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\stopword.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\timer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\timer_action.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\type_mogo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\win_adaptor.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\world.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\xmsg.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\xsem.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="loginapp\main.cpp">
+      <Filter>loginapp</Filter>
+    </ClCompile>
+    <ClCompile Include="base\basemain.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\cellmain.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="loginapp\loginapp.cpp">
+      <Filter>loginapp</Filter>
+    </ClCompile>
+    <ClCompile Include="loginapp\world_login.cpp">
+      <Filter>loginapp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\baseapp.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\entity_base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\lua_base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\world_base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\aoi.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\cellapp.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\entity_cell.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\lua_cell.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\space.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\world_cell.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="common\balance.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\base64.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bitcryto.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cfg_reader.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cjson.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\debug.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\defparser.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\delegate.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\entity.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\entity_mgr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\epoll_server.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\event.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\exception.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\global_config.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\json_helper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\logger.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\lua_bitset.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\lua_mogo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\lua_mogo_impl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mailbox.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\md5.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\memory_pool.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mutex.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\my_stl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\net_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\path_founder.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pluto.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\rpc_mogo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\stopword.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\timer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\timer_action.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\type_mogo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\win_adaptor.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\world.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\xmsg.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\xsem.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\world_select.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="loginapp\loginapp.h">
+      <Filter>loginapp</Filter>
+    </ClInclude>
+    <ClInclude Include="loginapp\world_login.h">
+      <Filter>loginapp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{ff6592e8-7d6f-4544-8293-e7877433c77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell">
+      <UniqueIdentifier>{00d2ae70-9d10-4e3c-abe5-2500819412b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{e73fa455-fc75-4b03-83ae-0bf27bf4eab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loginapp">
+      <UniqueIdentifier>{be9f3745-df61-4320-82ec-3c79c0035afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{15ed8e5b-777f-477e-ab76-6ae2b8abca57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\ai">
+      <UniqueIdentifier>{509776a1-8485-460f-9f66-300d64899ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\base">
+      <UniqueIdentifier>{b8b967e6-c78e-4cf2-9ac9-5db5bff4530c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\cell">
+      <UniqueIdentifier>{4aa8036a-1e16-488d-86ce-e40dcf2da3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\common">
+      <UniqueIdentifier>{c9564f11-f2c7-4f1f-a037-0a7f8d8a4ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\data">
+      <UniqueIdentifier>{e9988a57-5813-4891-a30b-c24b231b6d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\entity_defs">
+      <UniqueIdentifier>{58f37a17-f3d0-4269-9bdb-fc07631a351d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\lualibs">
+      <UniqueIdentifier>{78990a8f-b201-4aa4-b347-e0685631a16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\server_data">
+      <UniqueIdentifier>{9e285cad-62d4-490a-b725-3aa6fd80122e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\test">
+      <UniqueIdentifier>{dccf26f7-74f6-4716-b47c-024ab84da7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\server_data\gm_data">
+      <UniqueIdentifier>{c051f402-56ec-4e9b-a148-dbdd8e6253bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\base\mgr">
+      <UniqueIdentifier>{65edac63-dd24-400e-8633-94efbdd54ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\base\SpaceLoader">
+      <UniqueIdentifier>{7a36b6c8-7d56-4afc-bdd5-c723d0072621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\base\SubSystem">
+      <UniqueIdentifier>{04ae636b-d124-4c04-9a82-b8adf57edf2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\base\SubSystem\GM">
+      <UniqueIdentifier>{b4c17536-858b-451a-bcd0-11d3f5657091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\common\data">
+      <UniqueIdentifier>{8f30da69-2318-4e08-b43b-28d9f1101df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\cell\mgr">
+      <UniqueIdentifier>{9892d5bf-469c-4657-b156-18ffe07966ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\cell\Skill">
+      <UniqueIdentifier>{6397afb6-e418-48f3-9555-656e215dc1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\cell\SpaceLoader">
+      <UniqueIdentifier>{dfd801a8-c237-4ea6-ba46-dbb66a79d000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\data\blockmap">
+      <UniqueIdentifier>{dabf79c8-1bfe-4ff1-88f3-aea6a9daf024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\data\notxml">
+      <UniqueIdentifier>{7f3db8d0-5310-4998-ab92-9bd3a255bb3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\data\spaces">
+      <UniqueIdentifier>{5539ada3-979f-422e-a204-e1e492cb3bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\data\xml">
+      <UniqueIdentifier>{23f40d71-6bc0-4913-bfc5-a26be074a97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin">
+      <UniqueIdentifier>{7f48f2a6-ab45-435a-9b67-5b4140a3e6bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scripts\ai\ActionNodes.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\all_ai.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT2.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT3.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT4.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT5.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT6.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT7.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT11.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT12.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT101.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT501.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT502.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1001.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1006.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1007.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1010.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1013.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1015.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1020.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1024.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1025.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1031.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1037.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1044.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1054.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT1058.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT2007.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT2008.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT2009.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT2016.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT2017.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BT2050.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BTNode.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\BTOne.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\ConditionNodes.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\ai\DecoratorNodes.lua">
+      <Filter>scripts\ai</Filter>
+    </None>
+    <None Include="scripts\lualibs\mobdebug.lua">
+      <Filter>scripts\lualibs</Filter>
+    </None>
+    <None Include="scripts\compile_lua.sh">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="scripts\test\base_test.lua">
+      <Filter>scripts\test</Filter>
+    </None>
+    <None Include="scripts\base\Account.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\ActivityMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\ArenaData.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\ArenaMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\Avatar.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\Avatar_activity.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\Avatar_Event.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\Avatar_fumo.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarArena.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarBodyEnhance.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarCharge.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarFriend.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarGm.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarHp.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarJewel.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarMail.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarOblivionGate.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarRoulette.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarRune.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\AvatarSanctuaryDefense.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\BaseEntity.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\ChargeMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\Collector.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\Debug.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\DefensePvPMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\EventMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\FlyDragonMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\GameMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\global_data.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\GlobalDataMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\Guild.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\GuildMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\init.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\lib.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\MailMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\MapMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\MissionMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\MissionRecord.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\NameMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\OblivionGateMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\OfflineMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\OfflineMgrEx.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\OfflineMgrRedis.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\RouletteMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\TeleportPointSrc.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\UserMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\UserMgrArena.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\UserMgrBackUp.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\UserMgrRankList.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\UserMgrRedis.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\UserMgrStartUp.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\UserMgrTimer.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\UserMgrWorldBoss.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\WorldBossData.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\WorldBossMgr.lua">
+      <Filter>scripts\base</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\_achievement.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\_day_task.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\_father.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\_task.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\ActivitySystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\ArenaSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\BattleSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\BodyEnhanceSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\BossHpMgr.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\CampaignSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\DefensePvPSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\ElfSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\Enchantment.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\FlyDragonSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\FriendSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\GoldMetallurgy.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\GuildSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\HotSalesSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\InventorySystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\ItemExchange.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\JewelSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\LevelGiftSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\MarketSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\MercenarySystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\MissionSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\NPCSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\OblivionGateSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\RuneSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\SceneSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\SkillUpgradeSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\SpecialEffects.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\SpiritSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\Summoner.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\t2s.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\TaskSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\TowerSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\Trigger.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\WingSystem.lua">
+      <Filter>scripts\base\SubSystem</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\ArenaPlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\BasicPlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\DefensePvPManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\DragonPlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\MultiPlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\NewbiePlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\NormalPlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\OblivionPlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\RandomPlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\TowerDefencePlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\TowerPlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\SpaceLoader\WorldBossPlayManager.lua">
+      <Filter>scripts\base\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\base\mgr\behaviors.lua">
+      <Filter>scripts\base\mgr</Filter>
+    </None>
+    <None Include="scripts\base\mgr\mgr_action.lua">
+      <Filter>scripts\base\mgr</Filter>
+    </None>
+    <None Include="scripts\base\mgr\mgr_behavior.lua">
+      <Filter>scripts\base\mgr</Filter>
+    </None>
+    <None Include="scripts\base\mgr\mgr_channel.lua">
+      <Filter>scripts\base\mgr</Filter>
+    </None>
+    <None Include="scripts\base\mgr\mgr_compensate.lua">
+      <Filter>scripts\base\mgr</Filter>
+    </None>
+    <None Include="scripts\base\mgr\mgr_stopword.lua">
+      <Filter>scripts\base\mgr</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\GM\GM.lua">
+      <Filter>scripts\base\SubSystem\GM</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\GM\GM_Func.lua">
+      <Filter>scripts\base\SubSystem\GM</Filter>
+    </None>
+    <None Include="scripts\base\SubSystem\GM\GMData.lua">
+      <Filter>scripts\base\SubSystem\GM</Filter>
+    </None>
+    <None Include="scripts\common\action_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\arena_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\arenic_level.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\attri_cal.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\bodyEnhance_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\channel_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\cli_entity_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\client_text_id.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\CommonXmlConfig.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\defense_pvp_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\error_code.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\event_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\event_def.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\EventDispatcher.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\FormularPara.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\friend_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\gm_setting_state.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\guild_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\HpBottleType.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\Item_data.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\item_effect.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\jewel_cube.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\lua_map.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\lua_util.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\mail_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\mercenary_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\message_code.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\mission_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\npcData.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\oblivion_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\OfflineDataType.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\PriceList.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\public_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\reason_def.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\role_data.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\spiritData.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\state_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\timer_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\tower_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\UserDataType.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\vip_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\vip_privilege.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\worldboss_config.lua">
+      <Filter>scripts\common</Filter>
+    </None>
+    <None Include="scripts\common\data\ActivityData.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\avatar_level_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\banned_char.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\BodyData.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\charge_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\dragon_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\drop_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\elf_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\energy_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\eventData.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\FightForceFactor_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\FumoData.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\GlobalParams.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\guild_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\Jewel_sort_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\JewelData.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\map_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\mission_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\monster_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\NameData.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\RankListData.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\roulette_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\runeData.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\SanctuaryDefense_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\ServerChineseData.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\skill_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\skillIdReflect_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\special_effects_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\TowerData.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\common\data\wing_data.lua">
+      <Filter>scripts\common\data</Filter>
+    </None>
+    <None Include="scripts\cell\Avatar.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\CellEntity.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\CliEntityManager.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\Debug.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\init.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\Mercenary.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\Monster.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\NPC.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\Pet.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceThing.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\SpawnPoint.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\SrvEntityManager.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\TeleportPointSrc.lua">
+      <Filter>scripts\cell</Filter>
+    </None>
+    <None Include="scripts\cell\mgr\mgr_map_cell.lua">
+      <Filter>scripts\cell\mgr</Filter>
+    </None>
+    <None Include="scripts\cell\Skill\SkillAction.lua">
+      <Filter>scripts\cell\Skill</Filter>
+    </None>
+    <None Include="scripts\cell\Skill\SkillBag.lua">
+      <Filter>scripts\cell\Skill</Filter>
+    </None>
+    <None Include="scripts\cell\Skill\SkillBuff.lua">
+      <Filter>scripts\cell\Skill</Filter>
+    </None>
+    <None Include="scripts\cell\Skill\SkillCalculate.lua">
+      <Filter>scripts\cell\Skill</Filter>
+    </None>
+    <None Include="scripts\cell\Skill\SkillSystem.lua">
+      <Filter>scripts\cell\Skill</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\ArenaPlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\BasicPlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\DefensePvPManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\DragonPlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\MultiPlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\NewbiePlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\NormalPlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\OblivionPlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\RandomPlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\TowerDefencePlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\TowerPlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="scripts\cell\SpaceLoader\WorldBossPlayManager.lua">
+      <Filter>scripts\cell\SpaceLoader</Filter>
+    </None>
+    <None Include="bin\cfg.ini">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\run.sh">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\close.sh">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\all_close.sh">
+      <Filter>bin</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="scripts\entity_defs\Account.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\ActivityMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\ArenaData.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\ArenaMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\Avatar.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\Body.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\ChargeMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\ChargeMgr_recs.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\Collector.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\DefensePvPMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\entities.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\EventMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\FlyDragonMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\GameMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\GlobalDataMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\Guild.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\GuildMessage.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\GuildMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\last_server_account.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\Mail.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\mail_private.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\mail_public.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\MailMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\MapMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\Mercenary.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\mgr_compensate.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\MissionMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\MissionRecord.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\Monster.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\NameMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\OblivionGateMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\OfflineData.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\OfflineMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\RankListData.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\RouletteMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\SpaceLoader.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\SpawnPoint.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\TeleportPointSrc.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\UserMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\UserMgrData.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\WorldBossData.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\entity_defs\WorldBossMgr.xml">
+      <Filter>scripts\entity_defs</Filter>
+    </Xml>
+    <Xml Include="scripts\server_data\gift_bag.xml">
+      <Filter>scripts\server_data</Filter>
+    </Xml>
+    <Xml Include="scripts\server_data\sorry_gift.xml">
+      <Filter>scripts\server_data</Filter>
+    </Xml>
+    <Xml Include="scripts\server_data\gm_data\Api.xml">
+      <Filter>scripts\server_data\gm_data</Filter>
+    </Xml>
+    <Xml Include="scripts\server_data\gm_data\authority.xml">
+      <Filter>scripts\server_data\gm_data</Filter>
+    </Xml>
+    <Xml Include="scripts\server_data\gm_data\instruction.xml">
+      <Filter>scripts\server_data\gm_data</Filter>
+    </Xml>
+    <Xml Include="scripts\server_data\gm_data\role.xml">
+      <Filter>scripts\server_data\gm_data</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\action.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ActionSound.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Activity.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ActivityReward.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ActivityTime.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ArenaConfig.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ArenaCreditReward4Challenge.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ArenaItemReward4Challenge.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ArenaLevel.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ArenaScoreReward.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\AvatarLevel.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\AvatarModel.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Behavior.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\billbord.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\BodyEnhanceData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\BossChest.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\BT_AI.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\CameraAnim.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Cg_Config.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\CharacterInfoData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ChatList.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ChineseData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ClientEvent.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\compensation_last_server.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ControllerOfWeapon.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\day_task.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\DiamondMine.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\DragonBase.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\DragonEventDesc.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\DragonEvents.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\DragonQuality.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\DragonRewards.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\DragonStation.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Drop.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\DropFXData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\DropModelData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ElfAreaLimit.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ElfNode.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ElfSkill.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ElfSkillUpgrade.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Energy.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Equip.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\EquipFXRes.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\EquipRecommend.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\EquipSpecialEffects.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\EquipValuesSortInfo.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Event.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\EventMgr.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\FansReward.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\FightForceFactor.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\FormulaParameters.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\fumo_datamaker.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\fumo_effect.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\FXData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\GameProcData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\GearData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\global_params.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\GlobalData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\gui_config.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\guide.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\GuildDragon.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\GuildLevel.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\GuildSkill.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\HitState.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\HpTypes.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Icon.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\InstanceLevelGridPos.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ItemCom.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ItemDeEquipValues.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ItemEffect.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ItemEquipment.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ItemEquipValues.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ItemExchange.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ItemJewel.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ItemOthers.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ItemSpecial.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ItemSuitEquipments.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\JewelCube.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\JewelSort.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\LevelGiftData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\LevelGuide.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\loadingTextures.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\loadingTips.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\LoginMarketData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\map_setting.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\MapUIMapping.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\MarketData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Mission.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\MissionBossTreasure.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\MissionEvaluate.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\MissionEvent.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\MissionRandomReward.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\MissionRandomRewardTimes.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\MissionReward.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ModelData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Monster.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\MonsterValue.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Mwsy.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\NameCuteFirst.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\NameCuteLast.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\NameOccidentalFemale.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\NameOccidentalLast.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\NameOccidentalMale.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\NameOrientalFemale.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\NameOrientalLast.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\NameOrientalMale.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\notification.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\NPCData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\OblivionTrigger.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\PassiveSkillEffect.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\PowerScore.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\PowerScoreJewel.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\PowerScoreStar.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\PriceList.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\privilege.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\PropertyEffect.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\QualityColor.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\RankList.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Reward_Achievement.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Reward_DefecsePvP_Personal.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Reward_DefecsePvP_Team.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Reward_Login.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Reward_OblivionAttr.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Reward_OblivionDrop.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Reward_Recharge.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Reward_SanctuaryDefense.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\role_data.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Roulette.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\RouletteReward.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Rune.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\RunePosiUnLock.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\RuneRandom.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\RuneVocation.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SanctuaryDefenseConfig.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SanctuaryDefenseEnterTimesPrice.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SanctuaryDefenseLevelToFactor.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ServerChineseData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\ShaderData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SkillAction.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SkillBuff.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SkillData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SkillIdReflect.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SkillState.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SkillUpgrade.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SoundData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SpawnPointLevel.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SpiritLevelData_Mark.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SpiritLevelData_Skill.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SpiritMarkData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SpiritSkillData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG1.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG2.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG3.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\storyCG4.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG5.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG6.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\storyCG7.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG8.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\storyCG9.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG10.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG11.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG12.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG13.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG14.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\storyCG15.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG16.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG17.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG18.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG19.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\storycg20.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG21.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\storycg22.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG23.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG24.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG25.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG26.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG27.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG28.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG29.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG30.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG31.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG32.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG33.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG34.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG35.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG36.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG37.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG38.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG39.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG40.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG41.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG42.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG43.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG44.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG45.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG46.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG47.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG48.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG49.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG50.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG51.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG52.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG53.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG54.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG55.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG56.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG57.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG99.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG100.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\storycg101.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG102.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG103.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG104.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG105.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG106.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG107.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG108.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\StoryCG109.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\SystemRequirement.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\TaskData.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\teleport_setting.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\TowerReward.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\TowerSweepCdClearCost.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\UIFaceIcon.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\UIFX.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\UIMap.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\UpgradeGuide.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\UpgradePower.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\VictorCameraCfg.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\Wing.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\xml\WingLevel.xml">
+      <Filter>scripts\data\xml</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10100.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10101.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10102.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10103.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10104.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10105.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10106.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10107.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10108.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10109.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10201.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10202.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10203.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10204.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10205.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10206.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10207.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10208.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10209.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10301.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10302.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10303.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10304.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10305.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10306.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10307.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10308.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10309.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10401.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10402.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10403.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10404.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10405.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10406.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10407.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10408.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10409.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10501.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10502.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10503.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10504.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10505.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10506.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10507.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10508.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10509.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10601.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10602.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10603.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10604.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10605.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10606.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10607.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10608.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10609.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10701.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10702.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10703.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10704.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10705.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s10706.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20001.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20002.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20003.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20004.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20005.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20006.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20007.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20008.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20009.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20010.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20011.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s20012.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s22221.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s22222.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s30001.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s30002.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s40001.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s40002.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s40003.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s40004.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s40005.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s40006.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s40007.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s40008.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s40009.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s42000.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s50001.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s50002.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+    <Xml Include="scripts\data\spaces\s50003.xml">
+      <Filter>scripts\data\spaces</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="scripts\data\notxml\stopword_re.txt">
+      <Filter>scripts\data\notxml</Filter>
+    </Text>
+    <Text Include="scripts\data\notxml\stopword_sub.txt">
+      <Filter>scripts\data\notxml</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
